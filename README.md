@@ -1,6 +1,6 @@
 # TransArt: An All-in-One AI Suite 🤖
 
-TransArt is a powerful, web-based multimodal application that seamlessly integrates language processing, image synthesis, and conversational AI. [cite_start]This project demonstrates a complete workflow from translating vernacular languages (like Tamil) to English, and then using that output to generate stunning visuals and engage in intelligent conversation. [cite: 3, 4]
+TransArt is a powerful, web-based multimodal application that seamlessly integrates language processing, image synthesis, and conversational AI.This project demonstrates a complete workflow from translating vernacular languages (like Tamil) to English, and then using that output to generate stunning visuals and engage in intelligent conversation.
 
 ***
 
@@ -16,9 +16,9 @@ TransArt is a powerful, web-based multimodal application that seamlessly integra
 
 This application is built with a user-friendly tabbed interface in Gradio, offering three distinct AI-powered tools:
 
-* [cite_start]**🎙️ Audio to Text & Image**: Transcribe **Tamil** or **English** audio using `whisper-large-v3`, translate it to English with an LLM, and generate an image from the text using `Stable Diffusion XL`.
-* [cite_start]**🖼️ Prompt to Image**: Enter any descriptive text prompt and generate a high-quality image, perfect for content creators and designers.
-* [cite_start]**💬 AI Chatbot**: Engage in an intelligent conversation with a helpful AI assistant powered by Groq's fast inference engine.
+**🎙️ Audio to Text & Image**: Transcribe **Tamil** or **English** audio using `whisper-large-v3`, translate it to English with an LLM, and generate an image from the text using `Stable Diffusion XL`.
+**🖼️ Prompt to Image**: Enter any descriptive text prompt and generate a high-quality image, perfect for content creators and designers.
+**💬 AI Chatbot**: Engage in an intelligent conversation with a helpful AI assistant powered by Groq's fast inference engine.
 
 ***
 
@@ -26,20 +26,20 @@ This application is built with a user-friendly tabbed interface in Gradio, offer
 
 This project leverages a modern stack of AI technologies and APIs to deliver high performance:
 
-* [cite_start]**Framework**: **Gradio** for the interactive web UI.
-* **AI Inference**:
-    * **[Groq API](https://groq.com/)**: For ultra-fast audio transcription and LLM responses.
-    * [cite_start]**[Hugging Face Inference API](https://huggingface.co/inference-api)**: For robust and reliable text-to-image generation.
-* **Models**:
-    * **Audio Transcription**: `whisper-large-v3`
-    * **Translation & Chat**: `moonshotai/kimi-k2-instruct`
-    * [cite_start]**Image Generation**: `stabilityai/stable-diffusion-xl-base-1.0`
+**Framework**: **Gradio** for the interactive web UI.
+**AI Inference**:
+    **[Groq API](https://groq.com/)**: For ultra-fast audio transcription and LLM responses.
+    **[Hugging Face Inference API](https://huggingface.co/inference-api)**: For robust and reliable text-to-image generation.
+**Models**:
+    **Audio Transcription**: `whisper-large-v3`
+    **Translation & Chat**: `moonshotai/kimi-k2-instruct`
+    **Image Generation**: `stabilityai/stable-diffusion-xl-base-1.0`
 
 ***
 
 ## ☁️ Deployment to Hugging Face Spaces
 
-[cite_start]This application is designed to be deployed directly to Hugging Face Spaces. [cite: 10, 47] Here’s the step-by-step guide.
+This application is designed to be deployed directly to Hugging Face Spaces. [cite: 10, 47] Here’s the step-by-step guide.
 
 ### 1. Prepare Your Files
 Make sure you have the following two files ready:
